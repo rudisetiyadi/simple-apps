@@ -8,6 +8,5 @@ services:
     deploy:
       resources:
         limits:
-          cpu: "0.5"
+          cpus: "0.5"
           memory: 128M
-          
