@@ -1,6 +1,6 @@
 services:
   simple-apps:
-    container_name: ct-simpleapps-prod
+    container_name: ct-simpleapps-prod-pipeline
     build: ./app
     image: stieady07/img-simpleapps:v1-stable
     ports:
