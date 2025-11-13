@@ -1,7 +1,7 @@
 services:
   simple-apps:
     container_name: ct-simpleapps
-    build: ./app
+    image: stiady07/img-simpleapps
     ports:
     - "10000:3000"
     restart: always
