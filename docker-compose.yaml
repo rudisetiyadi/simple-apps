@@ -3,7 +3,7 @@ services:
     container_name: ct-simpleapps
     build: ./app
     ports:
-    - "11000:3000"
+    - "10000:3000"
     restart: always
     deploy:
       resources:
