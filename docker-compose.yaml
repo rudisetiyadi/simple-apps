@@ -1,10 +1,10 @@
 services:
   simple-apps:
-    container_name: ct-simpleapps-prod-pipeline1
+    container_name: ct-simpleapps-prod-pipeline3
     build: ./app
     image: stieady07/img-simpleapps:v1-stable
     ports:
-    - "10002:3000"
+    - "10003:3000"
     restart: always
     deploy:
       resources:
