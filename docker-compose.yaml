@@ -1,6 +1,6 @@
 services:
   simple-apps:
-    container_name: ct-simpleapps
+    container_name: ct-simpleapps-prod
     image: stiady07/img-simpleapps
     ports:
     - "10000:3000"
